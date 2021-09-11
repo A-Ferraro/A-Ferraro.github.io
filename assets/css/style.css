@@ -29,9 +29,15 @@ body::before {
   z-index: -1;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1400px) {
   body::before {
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1400px) {
+  body::before {
+    background: #000000;
   }
 }
 

@@ -6,7 +6,18 @@
 */
 (function() {
   "use strict";
+/*
+   $(window).resize(function() {
+	  
+      if ($(window).width() < 1400) {
+		  
+	     alert($(window).width());
+	  }
+	  else {
 
+	  }
+   });
+   */
   /**
    * Easy selector helper function
    */
