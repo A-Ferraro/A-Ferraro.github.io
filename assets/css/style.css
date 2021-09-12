@@ -640,6 +640,17 @@ section .container {
   margin-bottom: 10px;
 }
 
+/* Added for in-line dates */
+.resume .resume-item span { 
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.15);
+  padding: 2px 5px;
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
 .resume .resume-item ul {
   padding-left: 20px;
 }
