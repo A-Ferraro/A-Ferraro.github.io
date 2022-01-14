@@ -437,8 +437,8 @@
   background: #000;
 }
 
-.gprev,
-.gnext,
+.gprevBreak,
+.gnextBreak,
 .gclose {
   z-index: 99999;
   cursor: pointer;
@@ -460,8 +460,8 @@
   flex-direction: column;
 }
 
-.gprev svg,
-.gnext svg,
+.gprevBreak svg,
+.gnextBreak svg,
 .gclose svg {
   display: block;
   width: 25px;
@@ -470,19 +470,19 @@
   padding: 0;
 }
 
-.gprev.disabled,
-.gnext.disabled,
+.gprevBreak.disabled,
+.gnextBreak.disabled,
 .gclose.disabled {
   opacity: 0.1;
 }
 
-.gprev .garrow,
-.gnext .garrow,
+.gprevBreak .garrow,
+.gnextBreak .garrow,
 .gclose .garrow {
   stroke: #fff;
 }
 
-.gbtn.focused {
+.gbtnbreak.focused {
   outline: 2px solid #0f3d81;
 }
 
@@ -490,8 +490,8 @@ iframe.wait-autoplay {
   opacity: 0;
 }
 
-.glightbox-closing .gnext,
-    .glightbox-closing .gprev,
+.glightbox-closing .gnextBreak,
+    .glightbox-closing .gprevBreak,
     .glightbox-closing .gclose {
   opacity: 0 !important;
 }
@@ -527,20 +527,20 @@ iframe.wait-autoplay {
   background: #000;
 }
 
-.glightbox-clean .gprev,
-    .glightbox-clean .gnext,
+.glightbox-clean .gprevBreak,
+    .glightbox-clean .gnextBreak,
     .glightbox-clean .gclose {
   background-color: rgba(0, 0, 0, 0.75);
   border-radius: 4px;
 }
 
-.glightbox-clean .gprev path,
-.glightbox-clean .gnext path,
+.glightbox-clean .gprevBreak path,
+.glightbox-clean .gnextBreak path,
 .glightbox-clean .gclose path {
   fill: #fff;
 }
 
-.glightbox-clean .gprev {
+.glightbox-clean .gprevBreak {
   position: absolute;
   top: -100%;
   left: 30px;
@@ -548,7 +548,7 @@ iframe.wait-autoplay {
   height: 50px;
 }
 
-.glightbox-clean .gnext {
+.glightbox-clean .gnextBreak {
   position: absolute;
   top: -100%;
   right: 30px;
@@ -906,20 +906,20 @@ iframe.wait-autoplay {
     height: 100%;
     overflow-y: auto;
   }
-  .glightbox-clean .gprev,
-    .glightbox-clean .gnext,
+  .glightbox-clean .gprevBreak,
+    .glightbox-clean .gnextBreak,
     .glightbox-clean .gclose {
     background-color: rgba(0, 0, 0, 0.32);
   }
-  .glightbox-clean .gprev:hover,
-.glightbox-clean .gnext:hover,
+  .glightbox-clean .gprevBreak:hover,
+.glightbox-clean .gnextBreak:hover,
 .glightbox-clean .gclose:hover {
     background-color: rgba(0, 0, 0, 0.7);
   }
-  .glightbox-clean .gprev {
+  .glightbox-clean .gprevBreak {
     top: 45%;
   }
-  .glightbox-clean .gnext {
+  .glightbox-clean .gnextBreak {
     top: 45%;
   }
 }
